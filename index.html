@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#7f1838">
+<title>Para Millena ❤️</title>
+<style>
+:root{--wine:#781b3b;--rose:#d95d7b;--cream:#fff8f5;--ink:#40212b}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif}
+.hero{min-height:92vh;display:grid;place-items:center;text-align:center;padding:4rem 1.2rem;position:relative;overflow:hidden;background:radial-gradient(circle at 15% 20%,#ffe2e8 0,transparent 28%),radial-gradient(circle at 85% 75%,#f6c7d3 0,transparent 30%),linear-gradient(135deg,#fff8f5,#fbe7eb)}
+.hero:before,.hero:after{content:"♥";position:absolute;color:#d95d7b18;font-size:clamp(12rem,35vw,28rem);line-height:1;pointer-events:none}
+.hero:before{top:-4rem;left:-3rem;transform:rotate(-18deg)}.hero:after{bottom:-7rem;right:-3rem;transform:rotate(20deg)}
+.hero-content{position:relative;z-index:1;max-width:780px}
+.eyebrow{text-transform:uppercase;letter-spacing:.25em;font:600 .75rem Arial,sans-serif;color:var(--rose)}
+h1{font-size:clamp(3.2rem,10vw,6.8rem);line-height:.98;margin:1rem 0;color:var(--wine);font-weight:normal}
+.subtitle{font-size:clamp(1.1rem,3vw,1.45rem);line-height:1.7;max-width:650px;margin:1.5rem auto}
+.heart{color:var(--rose);font-size:2rem;animation:pulse 1.7s infinite}
+.btn{display:inline-block;margin-top:1rem;padding:1rem 1.5rem;border-radius:999px;background:var(--wine);color:white;text-decoration:none;font:600 .95rem Arial,sans-serif;box-shadow:0 10px 25px #781b3b30;transition:.2s}
+.btn:hover{transform:translateY(-3px);background:#9b2d50}
+section{padding:5rem 1.2rem}.wrap{max-width:1050px;margin:auto}
+.section-title{text-align:center;color:var(--wine);font-size:clamp(2rem,5vw,3.3rem);font-weight:normal;margin:0 0 1rem}
+.lead{text-align:center;max-width:700px;margin:0 auto 2.5rem;line-height:1.8;font-size:1.1rem}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:1.3rem;align-items:center}
+.photo{min-height:420px;position:relative;overflow:hidden;display:flex;align-items:flex-end;justify-content:center;background-size:cover;background-position:center;border-radius:14px;box-shadow:0 18px 45px #6d243330;isolation:isolate}
+.photo:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#18081010 20%,#180810b8 100%);z-index:-1}
+.photo.one{background-image:url("imagens/momento-1.jpeg")}
+.photo.two{background-image:url("imagens/momento-2.jpeg")}
+.photo figcaption{width:100%;padding:2rem 1.2rem 1.4rem;text-align:center;color:#fff;font-style:italic;font-size:1.1rem;text-shadow:0 2px 8px #0008}
+.note{background:#fff;border:1px solid #f1d4dc;max-width:780px;margin:3rem auto 0;padding:clamp(1.5rem,5vw,3rem);box-shadow:0 18px 50px #6d243310;position:relative}
+.note:before{content:"“";font-size:6rem;color:#f0b8c7;position:absolute;top:-.5rem;left:1rem}
+.note p{position:relative;font-size:1.15rem;line-height:1.95;margin:.8rem 0}
+.soft{background:#f9e7ec}
+.promise-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem}
+.promise{background:#fff;padding:1.5rem;border-radius:12px;text-align:center;box-shadow:0 10px 25px #6d24330b}
+.promise .icon{font-size:2rem}.promise h3{color:var(--wine);font-weight:normal;font-size:1.3rem}.promise p{line-height:1.65}
+.closing{text-align:center;background:linear-gradient(145deg,#781b3b,#a33356);color:#fff;padding:5rem 1.2rem}
+.closing h2{font-size:clamp(2.3rem,7vw,4.5rem);font-weight:normal;margin:0 0 1rem}
+.closing p{max-width:650px;margin:0 auto;line-height:1.8;font-size:1.15rem}
+.signature{margin-top:2rem;font-size:1.4rem;font-style:italic}
+footer{text-align:center;padding:1.5rem;color:#956477;font: .8rem Arial,sans-serif}
+.floating{position:fixed;right:1rem;bottom:1rem;border:0;border-radius:50%;width:52px;height:52px;background:#fff;color:var(--wine);font-size:1.4rem;box-shadow:0 5px 25px #0002;cursor:pointer;z-index:5}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@media(max-width:700px){.gallery{grid-template-columns:1fr;max-width:500px;margin:auto}.photo{min-height:390px}.promise-grid{grid-template-columns:1fr}.hero{min-height:82vh}section{padding:3.5rem 1rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.heart{animation:none}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-content">
+    <div class="eyebrow">Uma pequena surpresa feita com carinho</div>
+    <div class="heart">♥</div>
+    <h1>Para você,<br>Millena</h1>
+    <p class="subtitle">Mesmo com um oceano entre nós, há pessoas que conseguem deixar os nossos dias mais bonitos só por existirem.</p>
+    <a class="btn" href="#mensagem">Leia uma mensagem especial ↓</a>
+  </div>
+</header>
+<section>
+  <div class="wrap">
+    <h2 class="section-title">Um cantinho nosso</h2>
+    <p class="lead">Se estas imagens fossem lembranças de uma história que estamos a escrever, eu guardaria cada uma com muito carinho. Porque os momentos mais bonitos não precisam de ser perfeitos — só precisam de ter significado.</p>
+    <div class="gallery">
+      <figure class="photo one"><figcaption>O carinho mora nos pequenos gestos. ❤️</figcaption></figure>
+      <figure class="photo two"><figcaption>Um dia, quem sabe, a distância dá lugar a um abraço de verdade.</figcaption></figure>
+    </div>
+  </div>
+</section>
+<section id="mensagem" class="soft">
+  <div class="wrap">
+    <h2 class="section-title">Quero que você saiba…</h2>
+    <div class="note">
+      <p>Millena, fiz este pequeno cantinho pensando em você. ❤️</p>
+      <p>Ainda estamos a descobrir tantas coisas um sobre o outro, e acho bonito que seja assim: sem pressa, com sinceridade, carinho e espaço para sermos nós mesmos.</p>
+      <p>Mesmo de longe, gosto da ideia de poder fazer parte do seu dia, arrancar um sorriso seu, ouvir como foi a sua rotina e conhecer os sonhos que fazem os seus olhos brilharem.</p>
+      <p>Não quero prometer uma história perfeita nem apressar o que estamos a construir. Quero que, se os nossos caminhos continuarem a aproximar-se, seja porque nos sentimos bem um com o outro, porque existe confiança e porque o carinho cresce naturalmente.</p>
+      <p>Por enquanto, deixo aqui um abraço daqueles bem demorados — daqueles que dizem, sem precisar de muitas palavras: <strong>“Que bom que você apareceu na minha vida.”</strong></p>
+      <p>Espero que este pequeno gesto lhe traga um sorriso. Você merece dias leves, motivos bonitos para sorrir e muito carinho. 🥰</p>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <h2 class="section-title">O que eu gostaria de construir</h2>
+    <p class="lead">Sem pressa e um dia de cada vez. O mais bonito é quando duas pessoas escolhem conhecer-se de verdade.</p>
+    <div class="promise-grid">
+      <article class="promise"><div class="icon">💌</div><h3>Presença</h3><p>Mensagens sinceras, conversas gostosas e pequenos gestos que fazem a distância parecer menor.</p></article>
+      <article class="promise"><div class="icon">🤍</div><h3>Respeito</h3><p>Liberdade para sermos nós mesmos, com honestidade, paciência e compreensão.</p></article>
+      <article class="promise"><div class="icon">🌷</div><h3>Carinho</h3><p>Conhecer o seu mundo, celebrar as suas alegrias e ouvir você quando o dia não for tão fácil.</p></article>
+    </div>
+  </div>
+</section>
+<section class="closing">
+  <div class="heart">♥</div><h2>Um sorriso para você</h2>
+  <p>Se este site conseguiu fazer você sorrir nem que seja por alguns segundos, então já valeu a pena. Receba daí um abraço cheio de carinho, atravessando quilómetros até chegar a você.</p>
+  <div class="signature">Com carinho, Rúben ❤️</div>
+</section>
+<footer>Feito com carinho, especialmente para Millena · ♥</footer>
+<button class="floating" id="heartButton" aria-label="Enviar corações" title="Um pouquinho de carinho">♥</button>
+<script>
+document.getElementById('heartButton').addEventListener('click', () => {
+ const heart=document.createElement('span');heart.textContent=['♥','♡','💗','💕'][Math.floor(Math.random()*4)];
+ heart.style.cssText=`position:fixed;right:${20+Math.random()*70}%;bottom:20px;font-size:${20+Math.random()*28}px;color:#d95d7b;z-index:10;pointer-events:none;transition:transform 2s ease,opacity 2s ease`;
+ document.body.appendChild(heart);requestAnimationFrame(()=>{heart.style.transform=`translateY(-${180+Math.random()*180}px) rotate(${Math.random()*35-17}deg)`;heart.style.opacity='0'});setTimeout(()=>heart.remove(),2100);
+});
+</script>
+</body>
+</html>
